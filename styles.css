@@ -2,8 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background:seagreen;
-    background: linear-gradient(to top right, seagreen, rgb(25, 75, 25));
+    background: #1f513b;
+	background: linear-gradient(to top right, #1f513b, #0F2725) fixed;
 }
 
 .header{
@@ -16,11 +16,13 @@ body{
 }
 
 .header h1{
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    padding: 0 10px;
+    padding: 4 10 0 10px;
     display: flex;
     align-items: center;
     text-align: center;
+
 }
 
 img{
@@ -48,4 +50,30 @@ img{
 
 .hidden{
     display: none;
+}
+
+#mensajeGanador{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 40%;
+    height: 200px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;   
+    font-size: 50px;
+    text-align: center;
+    line-height: 180px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.482);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+button{
+    width: 250px;
+}
+
+#cartasJugador{
+    height: 300px;
 }
