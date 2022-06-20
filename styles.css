@@ -72,8 +72,8 @@ body{
     transform: translate(-50%, 50%);
     max-width:50%;
     max-height: 50%;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: rgb(44,59,80);
+    background: linear-gradient(90deg, rgba(44,59,80,1) 0%, rgba(14,14,36,1) 35%, rgba(81,86,87,1) 100%);
     color: white;   
     font-size:3vw;
     text-align: center;
@@ -82,6 +82,16 @@ body{
     border-radius: 10px;
     opacity: 0.9;
 }
+
+@media (max-width: 1000px) {
+
+    #mensajeGanador {
+        font-size: 6vw;
+        transform: translate(-50%, 150%);
+     }
+
+}
+
 
 button{
     vertical-align: bottom;
